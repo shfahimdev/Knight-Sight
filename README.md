@@ -6,7 +6,7 @@
 
 ## Description
 
-KnightSight is a **planned, open-source chess game review system**, designed to replicate — and eventually surpass — the review experience on platforms like Chess.com. This project has **just started**, and everything currently exists only as a concept and architectural plan. No functionality has been implemented yet.
+KnightSight is a **planned, open-source chess game review system**, designed to replicate - and eventually surpass - the review experience on platforms like Chess.com. This project has **just started**, and everything currently exists only as a concept and architectural plan. No functionality has been implemented yet.
 
 The goal of KnightSight is to be **full-fledged**, analyzing games move by move, detecting mistakes, suggesting best moves, and generating human-readable annotations once development begins.
 
@@ -22,7 +22,7 @@ Built for **coders, chess enthusiasts, and AI explorers**, KnightSight aims to i
 
 ## Project Vision
 
-KnightSight is more than just a chess tool — it’s a **capstone-level system project**. Every design decision, from backend engine integration to annotation logic, is intended to mirror real-world challenges in software engineering, AI applications, and even cybersecurity dashboards.  
+KnightSight is more than just a chess tool - it’s a **capstone-level system project**. Every design decision, from backend engine integration to annotation logic, is intended to mirror real-world challenges in software engineering, AI applications, and even cybersecurity dashboards.  
 
 > Built for coders who refuse to rent features and prefer **creating their own powerful tools** from scratch.
 
@@ -46,6 +46,9 @@ KnightSight is more than just a chess tool — it’s a **capstone-level system 
 This repo is currently in the **planning phase**. Development will begin once the architecture and design are finalized.
 
 ---
+
+## Contributers
+- Shahriar Hossain Fahim (Creator and Lead Developer)
 
 ## License
 
