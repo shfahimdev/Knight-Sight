@@ -8,7 +8,6 @@ const rankRow = (rankId) => {
 
     if (rankId % 2 == 0) {
         files.forEach((file, index) => {
-            console.log(index);
             if (index % 2 == 0) {
                 rankRow.push(square("white", file + rankId, null))
             } else {
@@ -17,7 +16,6 @@ const rankRow = (rankId) => {
         });
     } else {
         files.forEach((file, index) => {
-            console.log(index);
             if (index % 2 == 0) {
                 rankRow.push(square("black", file + rankId, null))
             } else {
