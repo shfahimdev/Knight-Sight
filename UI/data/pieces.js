@@ -1,97 +1,109 @@
-const blackPawn = currentPostion => {
+const blackPawn = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/pawn.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/black/pawn.png",
+        piece_name: "BLACK_PAWN",
+    };
+};
 
-const blackRook = currentPostion => {
+const blackRook = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/rook.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/black/rook.png",
+        piece_name: "BLACK_ROOK",
+    };
+};
 
-const blackKnight = currentPostion => {
+const blackKnight = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/knight.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/black/knight.png",
+        piece_name: "BLACK_KNIGHT",
+    };
+};
 
-const blackBishop = currentPostion => {
+const blackBishop = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/bishop.png"
-    }
-}
-const blackQueen = currentPostion => {
+        current_position,
+        img: "assets/images/pieces/black/bishop.png",
+        piece_name: "BLACK_BISHOP",
+    };
+};
+const blackQueen = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/queen.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/black/queen.png",
+        piece_name: "BLACK_QUEEN",
+    };
+};
 
-const blackKing = currentPostion => {
+const blackKing = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/black/king.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/black/king.png",
+        piece_name: "BLACK_KING",
+    };
+};
 
-const whitePawn = currentPostion => {
+const whitePawn = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/pawn.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/pawn.png",
+        piece_name: "WHITE_PAWN",
+    };
+};
 
-const whiteRook = currentPostion => {
+const whiteRook = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/rook.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/rook.png",
+        piece_name: "WHITE_ROOK",
+    };
+};
 
-const whiteKnight = currentPostion => {
+const whiteKnight = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/knight.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/knight.png",
+        piece_name: "WHITE_KNIGHT",
+    };
+};
 
-const whiteBishop = currentPostion => {
+const whiteBishop = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/bishop.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/bishop.png",
+        piece_name: "WHITE_BISHOP",
+    };
+};
 
-const whiteQueen = currentPostion => {
+const whiteQueen = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/queen.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/queen.png",
+        piece_name: "WHITE_QUEEN",
+    };
+};
 
-const whiteKing = currentPostion => {
+const whiteKing = (current_position) => {
     return {
-        currentPostion,
-        img: "assets/images/pieces/white/king.png"
-    }
-}
+        current_position,
+        img: "assets/images/pieces/white/king.png",
+        piece_name: "WHITE_KING",
+    };
+};
 
 export {
-    blackPawn, 
+    blackPawn,
     blackRook,
-    blackKnight, 
+    blackKnight,
     blackBishop,
     blackQueen,
     blackKing,
-    whitePawn, 
+    whitePawn,
     whiteRook,
     whiteKnight,
     whiteBishop,
     whiteQueen,
     whiteKing,
-}
+};
